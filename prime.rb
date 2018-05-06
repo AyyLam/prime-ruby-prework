@@ -4,9 +4,9 @@ def prime?(number)
     return false
   end 
   
-  limit = 1 + (number/2)
+  
     
-  for num in (1..limit)
+  for num in (1..limit).to_a
     if number % num == 0
       return false 
     end 
