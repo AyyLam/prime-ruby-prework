@@ -5,7 +5,7 @@ def prime?(number)
   end 
   
   limit = number / 2 
-  for num in (1..limit)
+  for num in (1...limit)
     if number % num == 0
       return false 
     end 
