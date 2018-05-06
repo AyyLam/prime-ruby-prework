@@ -1,5 +1,5 @@
 # Add  code here!
-def prime(number)
+def prime?(number)
   limit = 1 + (number/2)
     
   for num in (1..limit)
