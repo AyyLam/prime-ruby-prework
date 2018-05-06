@@ -2,6 +2,7 @@
 def prime?(number)
   if number <= 1
     return false
+  end 
   
   limit = 1 + (number/2)
     
