@@ -4,7 +4,7 @@ def prime?(number)
     return false
   end 
   
-  for num in (1..limit).to_a
+  for num in (1..number).to_a
     if number % num == 0
       return false 
     end 
