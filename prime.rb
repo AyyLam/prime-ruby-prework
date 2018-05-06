@@ -1,5 +1,8 @@
 # Add  code here!
 def prime?(number)
+  if number <= 1
+    return false
+  
   limit = 1 + (number/2)
     
   for num in (1..limit)
