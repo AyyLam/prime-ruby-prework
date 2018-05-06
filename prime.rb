@@ -6,6 +6,7 @@ def prime(number)
     return false
   elsif number < 4
     return true 
+  end 
     
   for num in (1..limit)
     if number % num == 0
